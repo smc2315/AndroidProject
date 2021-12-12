@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#FCFECE"
+        app:srcCompat="@drawable/picture"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/app_main_font"
+        android:text="TextView"
+        android:textSize="13sp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:font="@font/nanumgothicextrabold"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

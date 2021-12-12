@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/home"
+        android:title="home"
+        android:fontFamily="@font/app_main_font"/>
+    <item
+        android:id="@+id/shopItem"
+        android:icon="@drawable/shop"
+        android:title="shop"
+        android:fontFamily="@font/app_main_font"/>
+    <item
+        android:id="@+id/mypageItem"
+        android:icon="@drawable/mypage"
+        android:title="my page"
+        android:fontFamily="@font/app_main_font"/>
+
+</menu>
